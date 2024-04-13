@@ -40,3 +40,16 @@ You don't need to read input or print anything. The task is to complete the func
 - we'll `store the greater number in the max variable`
 - `push` the` greater number` in the `arr1`
 - return -> `reverse the array` so the greater number should be present first in the array
+
+
+[1 2 3 4 0]
+type psuedo code 
+1 []
+2 max = 0
+3 run loop in reverse i == arr.length-1 till i >= 0
+if(arr[i] >= max){
+    max = arr[i]
+    [max]
+}
+
+return [].reverse
